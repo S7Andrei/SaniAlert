@@ -1,0 +1,52 @@
+.poco-artesiano-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s ease;
+}
+
+.poco-artesiano-item.clickable:hover {
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.poco-info h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: #333;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.link-icon {
+  font-size: 20px;
+  color: #ccc;
+  cursor: default;
+  margin-left: 10px;
+}
+
+.link-icon.active {
+  color: #3498db; 
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.link-icon.active:hover {
+  color: #2575ae;
+}
+
+.proximo-a,
+.descricao-uso {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.proximo-a:last-child,
+.descricao-uso:last-child {
+  margin-bottom: 0;
+}

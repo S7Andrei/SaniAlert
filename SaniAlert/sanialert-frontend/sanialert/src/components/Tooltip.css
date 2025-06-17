@@ -1,0 +1,32 @@
+.tooltip-container {
+  position: relative; 
+}
+
+.tooltip-text {
+  visibility: visible;
+  background-color: red;
+  color: #fff; 
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1001; 
+  top: 125%; 
+  left: 84%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+  white-space: nowrap; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+}

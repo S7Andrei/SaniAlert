@@ -1,0 +1,30 @@
+.poco-artesiano-list-container {
+  max-height: 400px; 
+  overflow-y: auto;
+  padding-right: 10px; 
+  margin-top: 10px; 
+}
+
+.poco-artesiano-list-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.poco-artesiano-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.poco-artesiano-list-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+.poco-artesiano-list-container::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+.poco-artesiano-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,37 @@
+.bairro-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.bairro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.bairro-card-imagem {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.bairro-card-conteudo {
+  padding: 15px;
+}
+
+.bairro-card-conteudo h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #333;
+}
+
+.bairro-card-conteudo p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
